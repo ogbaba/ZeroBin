@@ -6,15 +6,9 @@ Licensed under the BSD License. - http://yuilibrary.com/license/    */
 html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}input,textarea,select{*font-size:100%}legend{color:#000}
 
 html  {
-background-color:#455463;
+background-color: WhiteSmoke;
 color:white;
 min-height:100%;
-background-image: linear-gradient(bottom, #0F1823 0%, #455463 100%);
-background-image: -o-linear-gradient(bottom, #0F1823 0%, #455463 100%);
-background-image: -moz-linear-gradient(bottom, #0F1823 0%, #455463 100%);
-background-image: -webkit-linear-gradient(bottom, #0F1823 0%, #455463 100%);
-background-image: -ms-linear-gradient(bottom, #0F1823 0%, #455463 100%);
-background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #0F1823), color-stop(1, #455463));
 }
 
 body {
@@ -24,7 +18,7 @@ margin-bottom:15px;
 padding-left:60px; padding-right:60px;
 }
  
-a  { color:#0F388F; }
+a  { color: DarkSlateGray; }
 
 h1 {
 font-size:3.5em;
@@ -45,7 +39,7 @@ cursor:pointer;
 }
 
 h2 { 
-color:#000; 
+color:DarkSlateGray; 
 font-size:1em; 
 display:inline; 
 font-style:italic; 
@@ -54,7 +48,7 @@ position:relative;
 bottom:8px;} 
   
 h3 { 
-color:#94a3b4; 
+color:DarkSlateGray; 
 font-size:0.7em; 
 display:inline; 
 position:relative; 
@@ -62,7 +56,7 @@ bottom:8px;}
 
 #aboutbox { 
 font-size:0.85em;
-color: #94a3b4; 
+color: DarkSlateGray; 
 padding: 4px 8px 4px 16px;
 position:relative; 
 top:10px;
@@ -71,11 +65,11 @@ float:right;
 width:60%;
 }
 
-div#aboutbox a { color: #94a3b4; } 
+div#aboutbox a { color: DarkSlateGray; } 
 textarea#message,div#cleartext,.replymessage, code {
 clear:both;
 color:black;
-background-color:#fff;
+background-color:Lavender;
 white-space:pre-wrap;
 font-family:Consolas,"Lucida Console","DejaVu Sans Mono",Monaco,monospace;
 font-size:9pt;
@@ -97,7 +91,7 @@ padding:5px 10px;
 
 
 div#pasteresult { 
-background-color:#1F2833;
+background-color:Lavender;
 color:white;
 padding:4px 12px; 
 clear:both;
